@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OnTime3.RegisterPage"
+             Background="#F2DCC9">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Sign Up" TextColor="#283040" FontSize="Title" HorizontalOptions="Start" Padding="50,0,0,0"/>
+            <Label Text="Email" TextColor="#283040" Padding="10,0,0,0"/>
+            <Entry  Placeholder="Your Email Address"  TextColor="#283040" PlaceholderColor="Gray" Keyboard="Email" FontSize="Caption" ></Entry>
+            <Label Text="Password" TextColor="#283040" Padding="10,0,0,0"/>
+            <Entry  Placeholder="Your Password" IsPassword ="True"  TextColor="#283040" PlaceholderColor="Gray" FontSize="Caption"></Entry>
+            <Label Text="Confirm Password" TextColor="#283040" Padding="10,0,0,0"/>
+            <Entry  Placeholder="Confirm Your Password" IsPassword ="True"  TextColor="#283040" PlaceholderColor="Gray" FontSize="Caption"></Entry>
+            <Button
+                VerticalOptions="Center"
+                Text="Continue"
+                TextColor="White"
+                BackgroundColor="#7C9EA6"
+                BorderWidth="1.5"
+                CornerRadius="50"
+                Clicked="Button_Clicked"
+                ></Button>
+            <Label HorizontalOptions="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Have an Account? " TextColor="Gray" />
+                        <Span Text="Sign In" FontAttributes="Bold" TextDecorations="Underline" TextColor="Gray" />
+                    </FormattedString>
+                </Label.FormattedText>
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </Label.GestureRecognizers>
+            </Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

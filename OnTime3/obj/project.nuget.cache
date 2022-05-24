@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "CPwTi4IhIp0aea85tldFclCaDz3axvPnx0BEb9qp+Yozai/aXwx2L12u2GztZk62WBpRZPCY5t1itCv5xwkJSQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fatma\\source\\repos\\OnTime3\\OnTime3\\OnTime3\\OnTime3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fatma\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\fatma\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\fatma\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\fatma\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\fatma\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

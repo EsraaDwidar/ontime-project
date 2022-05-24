@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OnTime3.Time_Tables">
+    <ContentPage.Content>
+        <StackLayout Padding="20" Spacing="0">
+           
+            <Frame Padding="5,0" Margin="-16,0">
+                <Grid Padding="-5,0,-5,10" Margin="0">
+
+                    <Grid.ColumnDefinitions >
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Margin="10,0,10,0" Text="per" VerticalOptions="Center" Grid.Column="0"/>
+                    <Label Margin="10,0,10,0" Text="sat" VerticalOptions="Center" Grid.Column="1"/>
+                    <Label Margin="10,0,10,0" Text="sun" VerticalOptions="Center" Grid.Column="2"/>
+                    <Label Margin="10,0,10,0" Text="mon" VerticalOptions="Center" Grid.Column="3"/>
+                    <Label Margin="10,0,10,0" Text="tue" VerticalOptions="Center" Grid.Column="4"/>
+                    <Label Margin="10,0,10,0" Text="wed" VerticalOptions="Center" Grid.Column="5"/>
+                    <Label Margin="10,0,10,0" Text="thu" VerticalOptions="Center" Grid.Column="6"/>
+                    <BoxView WidthRequest="1" Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="3" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="4" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="5" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="6" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                </Grid>
+            </Frame>
+            <Frame Padding="5,0" Margin="-16,0">
+                <Grid Padding="-5,0,-5,10" Margin="0">
+
+                    <Grid.ColumnDefinitions >
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Margin="10,0,10,0" Text="1" VerticalOptions="Center" Grid.Column="0" FontSize="30"/>
+                    <Entry Margin="10,0,10,0" Text="" VerticalOptions="Center" Grid.Column="1"/>
+                    <Entry Margin="10,0,10,0" Text="" VerticalOptions="Center" Grid.Column="2"/>
+                    <Entry Margin="10,0,10,0" Text="" VerticalOptions="Center" Grid.Column="3"/>
+                    <Entry Margin="10,0,10,0" Text="" VerticalOptions="Center" Grid.Column="4"/>
+                    <Entry Margin="10,0,10,0" Text="" VerticalOptions="Center" Grid.Column="5"/>
+                    <Entry Margin="10,0,10,0" Text="" VerticalOptions="Center" Grid.Column="6"/>
+                    <BoxView WidthRequest="1" Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="3" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="4" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="5" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="6" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                </Grid>
+            </Frame>
+            <Frame Padding="5,0" Margin="-16,0">
+                <Grid Padding="-5,0,-5,10" Margin="0">
+
+                    <Grid.ColumnDefinitions >
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Margin="10,0,10,0" Text="2" VerticalOptions="Center" Grid.Column="0" FontSize="30"/>
+                    <Entry Margin="10,0,10,0" Text="" VerticalOptions="Center" Grid.Column="1"/>
+                    <Entry Margin="10,0,10,0" Text="" VerticalOptions="Center" Grid.Column="2"/>
+                    <Entry Margin="10,0,10,0" Text="" VerticalOptions="Center" Grid.Column="3"/>
+                    <Entry Margin="10,0,10,0" Text="" VerticalOptions="Center" Grid.Column="4"/>
+                    <Entry Margin="10,0,10,0" Text="" VerticalOptions="Center" Grid.Column="5"/>
+                    <Entry Margin="10,0,10,0" Text="" VerticalOptions="Center" Grid.Column="6"/>
+                    <BoxView WidthRequest="1" Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="3" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="4" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="5" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="6" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                </Grid>
+            </Frame>
+            <Frame Padding="5,0" Margin="-16,0">
+                <Grid Padding="-5,0,-5,10" Margin="0">
+
+                    <Grid.ColumnDefinitions >
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Margin="10,0,10,0" Text="3" VerticalOptions="Center" Grid.Column="0" FontSize="30"/>
+                    <Entry Margin="10,0,10,0" Text="" VerticalOptions="Center" Grid.Column="1"/>
+                    <Entry Margin="10,0,10,0" Text="" VerticalOptions="Center" Grid.Column="2"/>
+                    <Entry Margin="10,0,10,0" Text="" VerticalOptions="Center" Grid.Column="3"/>
+                    <Entry Margin="10,0,10,0" Text="" VerticalOptions="Center" Grid.Column="4"/>
+                    <Entry Margin="10,0,10,0" Text="" VerticalOptions="Center" Grid.Column="5"/>
+                    <Entry Margin="10,0,10,0" Text="" VerticalOptions="Center" Grid.Column="6"/>
+                    <BoxView WidthRequest="1" Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="3" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="4" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="5" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="6" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                </Grid>
+            </Frame>
+            <Frame Padding="5,0" Margin="-16,0">
+                <Grid Padding="-5,0,-5,10" Margin="0">
+
+                    <Grid.ColumnDefinitions >
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Margin="10,0,10,0" Text="4" VerticalOptions="Center" Grid.Column="0" FontSize="30"/>
+                    <Entry Margin="10,0,10,0" Text="" VerticalOptions="Center" Grid.Column="1"/>
+                    <Entry Margin="10,0,10,0" Text="" VerticalOptions="Center" Grid.Column="2"/>
+                    <Entry Margin="10,0,10,0" Text="" VerticalOptions="Center" Grid.Column="3"/>
+                    <Entry Margin="10,0,10,0" Text="" VerticalOptions="Center" Grid.Column="4"/>
+                    <Entry Margin="10,0,10,0" Text="" VerticalOptions="Center" Grid.Column="5"/>
+                    <Entry Margin="10,0,10,0" Text="" VerticalOptions="Center" Grid.Column="6"/>
+                    <BoxView WidthRequest="1" Grid.Column="0" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="1" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="2" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="3" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="4" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="5" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                    <BoxView WidthRequest="1" Grid.Column="6" HorizontalOptions="EndAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#E6BCBC"/>
+                </Grid>
+            </Frame>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

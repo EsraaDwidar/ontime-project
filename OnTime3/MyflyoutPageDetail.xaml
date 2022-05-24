@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OnTime3.MyflyoutPageDetail"
+             Title="🏠 Home"
+           
+             BackgroundColor="#F2DCC9">
+  <StackLayout Padding="20,20,10,10">
+        <Image Source="Hello.jpg" WidthRequest="180" HeightRequest="150" VerticalOptions="Center" Margin="-200,30,0,50"   ></Image>
+        <Label Text="Welcome " TextColor="#283040" FontSize="25" AnchorX="50" AnchorY="50" CharacterSpacing="2.5" Margin="210,-165,0,0"/>
+        <Label Text="Dr.Amr!" TextColor="#283040" FontSize="30" AnchorX="50" AnchorY="50" CharacterSpacing="2.5" Margin="210,0,0,30"/>
+
+        <Label Text="Keep" TextColor="#283040" FontSize="45" AnchorX="50" AnchorY="50" CharacterSpacing="2.5" Margin="30,50,0,30" FontFamily="Monaco"/>
+       
+      
+      <Label Text="Tracking Your Goals " TextColor="#283040" FontSize="25" AnchorX="50" AnchorY="50" CharacterSpacing="2.5" Margin="25,-18,0,0"/>
+
+      
+        <Label Text="The Quote of Your Day ❤ " TextColor="#283040" FontSize="18" AnchorX="50" AnchorY="50" CharacterSpacing="2.5" Margin="25,110,0,0"/>
+
+        <Label Text="‘‘don't look for validation from others, but find validation from yoursele’’" TextColor="#283040" FontSize="20" AnchorX="50" AnchorY="50" CharacterSpacing="2.5" Margin="5,10,5,0" FontFamily="Monaco" BackgroundColor="#FAF59E" Padding="20,10,10,10" VerticalOptions="Center" VerticalTextAlignment="Center"/>
+     
+    </StackLayout>
+</ContentPage>
